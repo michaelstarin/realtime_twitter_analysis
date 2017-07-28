@@ -1,4 +1,4 @@
-# sudo docker run -it --rm -p 8889:8889 -p4040:4040 -v /Users/michaelstarin:/home/jovyan/work jupyter/all-spark-notebook
+sudo docker run -it --rm -p 8889:8889 -p4040:4040 -v /Users/michaelstarin:/home/jovyan/work jupyter/all-spark-notebook
 sudo docker run -it --rm -p 8889:8889 -p4040:4040 -v /Users/michaelstarin:/home/jovyan/work michaelstarin/custom-spark-notebook
 
 docker build -t michaelstarin:/home/jovyan/work jupyter .
